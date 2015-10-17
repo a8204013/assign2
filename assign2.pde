@@ -24,8 +24,8 @@ void setup () {
   //background2
   b2=-640;
   //treasure
-  tx=floor(random(640));
-  ty=floor(random(480));
+  tx=floor(random(600));
+  ty=floor(random(440));
   //START
   gameState = GAME_START;
   
