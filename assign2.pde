@@ -18,7 +18,7 @@ void setup () {
   end2 = loadImage("img/end2.png");
   start1 = loadImage("img/start1.png");
   start2 = loadImage("img/start2.png");
-  Blood=200;
+  Blood=40;
   //me
   x=580;y=250;
   //background2
@@ -112,7 +112,7 @@ void draw() {
        image(end2,0,0);
         if(mouseY > 310&&mouseY < 345&& mouseX < 430&& mouseX > 210){
           if(mousePressed){
-            Blood=200;
+            Blood=40;
             x=580;y=250;
             gameState = GAME_RUN;
           }else{
